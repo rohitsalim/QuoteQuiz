@@ -19,6 +19,9 @@
 		49B1B81B178DD05B0035FEB6 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B1B819178DD05B0035FEB6 /* MainStoryboard_iPhone.storyboard */; };
 		49B1B81E178DD05B0035FEB6 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49B1B81C178DD05B0035FEB6 /* MainStoryboard_iPad.storyboard */; };
 		49B1B821178DD05B0035FEB6 /* QuoteQuizViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1B820178DD05B0035FEB6 /* QuoteQuizViewController.m */; };
+		49B1B829178DD6D90035FEB6 /* Quiz.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B1B828178DD6D90035FEB6 /* Quiz.m */; };
+		49B1B82B178DDD300035FEB6 /* quotes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49B1B82A178DDD300035FEB6 /* quotes.plist */; };
+		49F7F1E51792F0C20056D2F8 /* QuizTipViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 49F7F1E41792F0C20056D2F8 /* QuizTipViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +42,11 @@
 		49B1B81D178DD05B0035FEB6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		49B1B81F178DD05B0035FEB6 /* QuoteQuizViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuoteQuizViewController.h; sourceTree = "<group>"; };
 		49B1B820178DD05B0035FEB6 /* QuoteQuizViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuoteQuizViewController.m; sourceTree = "<group>"; };
+		49B1B827178DD6D90035FEB6 /* Quiz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Quiz.h; sourceTree = "<group>"; };
+		49B1B828178DD6D90035FEB6 /* Quiz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Quiz.m; sourceTree = "<group>"; };
+		49B1B82A178DDD300035FEB6 /* quotes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = quotes.plist; sourceTree = "<group>"; };
+		49F7F1E31792F0C20056D2F8 /* QuizTipViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizTipViewController.h; sourceTree = "<group>"; };
+		49F7F1E41792F0C20056D2F8 /* QuizTipViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizTipViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,12 +93,17 @@
 		49B1B807178DD05A0035FEB6 /* QuoteQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				49F7F1E31792F0C20056D2F8 /* QuizTipViewController.h */,
+				49F7F1E41792F0C20056D2F8 /* QuizTipViewController.m */,
 				49B1B810178DD05B0035FEB6 /* QuoteQuizAppDelegate.h */,
 				49B1B811178DD05B0035FEB6 /* QuoteQuizAppDelegate.m */,
 				49B1B819178DD05B0035FEB6 /* MainStoryboard_iPhone.storyboard */,
+				49B1B827178DD6D90035FEB6 /* Quiz.h */,
+				49B1B828178DD6D90035FEB6 /* Quiz.m */,
 				49B1B81C178DD05B0035FEB6 /* MainStoryboard_iPad.storyboard */,
 				49B1B81F178DD05B0035FEB6 /* QuoteQuizViewController.h */,
 				49B1B820178DD05B0035FEB6 /* QuoteQuizViewController.m */,
+				49B1B82A178DDD300035FEB6 /* quotes.plist */,
 				49B1B808178DD05A0035FEB6 /* Supporting Files */,
 			);
 			path = QuoteQuiz;
@@ -168,6 +181,7 @@
 				49B1B818178DD05B0035FEB6 /* Default-568h@2x.png in Resources */,
 				49B1B81B178DD05B0035FEB6 /* MainStoryboard_iPhone.storyboard in Resources */,
 				49B1B81E178DD05B0035FEB6 /* MainStoryboard_iPad.storyboard in Resources */,
+				49B1B82B178DDD300035FEB6 /* quotes.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +195,8 @@
 				49B1B80E178DD05A0035FEB6 /* main.m in Sources */,
 				49B1B812178DD05B0035FEB6 /* QuoteQuizAppDelegate.m in Sources */,
 				49B1B821178DD05B0035FEB6 /* QuoteQuizViewController.m in Sources */,
+				49B1B829178DD6D90035FEB6 /* Quiz.m in Sources */,
+				49F7F1E51792F0C20056D2F8 /* QuizTipViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +329,7 @@
 				49B1B826178DD05B0035FEB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
